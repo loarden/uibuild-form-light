@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Montserrat:wght@500&display=swap');
 
 /* 
 font-family: 'EB Garamond', serif;
@@ -13,6 +13,9 @@ font-family: 'Montserrat', sans-serif;
 
 ::placeholder {
   color: #467745;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 body {
@@ -39,9 +42,7 @@ body {
     }
 
     .input-field {
-      font-family: 'Montserrat', sans-serif;
       font-weight: 500;
-      font-size: 16px;
       max-width: 480px;
       width: 100%;
       height: 64px;
@@ -51,8 +52,6 @@ body {
     }
 
     textarea {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 16px;
       max-width: 480px;
       width: 100%;
       height: 120px;
@@ -70,6 +69,8 @@ body {
 
       .checkbox{
         margin-right: 10px;
+        border: 2px solid #f7e4d4;
+        box-shadow: none;
       }
   
       span {
