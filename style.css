@@ -14,6 +14,7 @@ font-family: 'Montserrat', sans-serif;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 500;
+  opacity: 0.7;
 }
 
 ::placeholder {
@@ -21,6 +22,7 @@ font-family: 'Montserrat', sans-serif;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 500;
+  opacity: 0.7;
 }
 
 body {
