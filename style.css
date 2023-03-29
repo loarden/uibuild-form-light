@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Montserrat&display=swap");
+/* 
+font-family: 'EB Garamond', serif;
+font-family: 'Montserrat', sans-serif;
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-moz-placeholder {
+  color: #467745;
+}
+
+::placeholder {
+  color: #467745;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #f7e4d4;
+}
+body form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 520px;
+}
+body form h1 {
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+  font-size: 48px;
+  color: #467745;
+  text-align: center;
+  margin-bottom: 30px;
+}
+body form .input-field {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  max-width: 480px;
+  width: 100%;
+  height: 64px;
+  padding: 20px;
+  margin-bottom: 30px;
+  border: 0;
+}
+body form textarea {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  max-width: 480px;
+  width: 100%;
+  height: 120px;
+  padding: 20px;
+  margin-bottom: 30px;
+  border: 0;
+}
+body form div {
+  display: flex;
+  margin-bottom: 30px;
+  max-width: 480px;
+  width: 100%;
+}
+body form div .checkbox {
+  margin-right: 10px;
+}
+body form div span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #467745;
+}
+body form div span span {
+  text-decoration: underline;
+}
+body form button {
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+  font-size: 21px;
+  max-width: 280px;
+  width: 100%;
+  height: 80px;
+  border: 0;
+  border-radius: 40px;
+  background-color: #467745;
+  color: #f7e4d4;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 520px) {
+  body form h1 {
+    font-size: 36px;
+    align-self: flex-start;
+    margin-left: 20px;
+  }
+  body form .input-field {
+    width: calc(100% - 40px);
+  }
+  body form textarea {
+    width: calc(100% - 40px);
+  }
+  body form div {
+    width: calc(100% - 40px);
+  }
+}/*# sourceMappingURL=style.css.map */
